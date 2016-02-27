@@ -1,3 +1,7 @@
+#Note:
+This is a fork of Raine Virta's MemriseForgiveTypos.user.js
+He did all of the work, I've just made it take into account alternate answers.
+
 # MemriseForgiveTypos.user.js
 
 Shows an alert box ***once*** if the [Levenshtein
