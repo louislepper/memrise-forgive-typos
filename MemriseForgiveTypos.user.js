@@ -4,8 +4,6 @@
 // @match          http://www.memrise.com/course/*/garden/*
 // @match          http://www.memrise.com/garden/review/*
 // @version        0.1.7
-// @updateURL      https://userscripts.org/scripts/source/167003.meta.js
-// @downloadURL    https://userscripts.org/scripts/source/167003.user.js
 // @grant          none
 // ==/UserScript==
 
@@ -13,7 +11,7 @@ var onLoad = function($) {
 	// Set to true if you don't want lack of accents to register as typos
 	// e.g. garcon acceptable answer for garçon
 	var IGNORE_ACCENTS = false;
-
+	
 	var get_question = function() {
 		return $('.qquestion')[0].childNodes[0].nodeValue.trim();
 	};
